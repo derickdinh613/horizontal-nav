@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+background-color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: "Bevan", cursive;
+  text-align: center;
+  color: #fff;
+  margin: 0.3em;
+}
+
+header {
+  background-color: #79756f;
+  border: 3px solid #595652;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  margin: 0.3em;
+
+}
+
+a {
+  padding: 1em;
+  background-color: #713837;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-radius: 5px;
+
+}
