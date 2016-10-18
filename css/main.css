@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-background-color: #fff;
+  background-color: #dbd6d0;
 }
 
 *, *::before, *::after {
@@ -8,10 +8,10 @@ background-color: #fff;
 }
 
 h1 {
-  font-family: "Bevan", cursive;
+  font-family: "Bevan", serif;
   text-align: center;
   color: #fff;
-  margin: 0.3em;
+  margin: 0;
 }
 
 header {
@@ -27,7 +27,7 @@ li {
   list-style-type: none;
   text-align: center;
   display: inline-block;
-  margin: 0.3em;
+  margin: 0 0.3em;
 
 }
 
@@ -39,11 +39,16 @@ a {
   text-decoration: none;
   font-family: sans-serif;
   border-radius: 5px;
+  font-size: 0.75rem;
 
 }
 
-
 a:hover {
   text-decoration: none;
-  color:#f33;
+  background-color:#f33;
+}
+
+body {
+  color: #f33;
+  margin: 0;
 }
